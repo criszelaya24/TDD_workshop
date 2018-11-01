@@ -7,7 +7,13 @@ class Dice
 		@dice
 	end
 
-	def number
-		rand(1..6)
+	def move
+		@move = rand(1..6)
+		@move
+	end
+
+	def random_player(players)
+		@players = players
+		@turn = rand(1..@players)
 	end
 end
