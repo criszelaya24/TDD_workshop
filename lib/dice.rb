@@ -1,5 +1,9 @@
 class Dice
+	def initialize
+		@dice = 1
+	end
+
 	def roll
-		1
+		@dice
 	end
 end
